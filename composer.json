@@ -16,12 +16,12 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/contracts": "^11.30"
+        "illuminate/contracts": "^10.48|^11.30"
     },
     "require-dev": {
         "orchestra/testbench": "^9.5",
-        "phpunit/phpunit": "^10.1",
-        "vimeo/psalm": "^5.25"
+        "phpunit/phpunit": "^9.3.3|^10.1",
+        "vimeo/psalm": "^5.25|^6.1.0"
     },
     "autoload": {
         "exclude-from-classmap": ["/docs/", "/tests/"],
